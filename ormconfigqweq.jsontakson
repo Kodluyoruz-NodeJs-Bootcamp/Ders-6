@@ -1,0 +1,13 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 52000,
+  "username": "root",
+  "password": "mypassword",
+  "database": "denem",
+  "entities": [
+    "src/entity/*.ts"
+  ],
+  "logging": true,
+  "synchronize": true
+}
